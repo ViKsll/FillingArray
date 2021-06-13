@@ -2,8 +2,6 @@
 #include<ctime>
 using namespace std;
 
-/*Заполнить массив уникальными случайными числами*/
-
 void main()
 {
 	srand(time(NULL));
