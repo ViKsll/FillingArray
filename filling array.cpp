@@ -2,7 +2,7 @@
 #include<ctime>
 using namespace std;
 
-void main()
+int main()
 {
 	srand(time(NULL));
 
@@ -30,7 +30,7 @@ void main()
 			arr[i] = newRanomValue;
 			i++;
 		}
-
+           return o;
 	}
 
 	for (int i = 0; i < SIZE; i++)
